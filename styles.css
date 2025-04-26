@@ -1,0 +1,50 @@
+
+/* Cambiar el color del enlace activo */
+.navbar .nav-link.active {
+    color: rgb(0, 162, 255);
+    font-weight: bold;
+}
+
+/* Cambiar el color del enlace al pasar el mouse */
+.navbar .nav-link:hover {
+    color: #001aff; /* Naranja */
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    
+}
+
+h3{
+    color: rgb(0, 162, 255);
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.spaced-paragraph {
+    margin-bottom: 50px;
+}
+
+
+footer{
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #000000;
+}
+
+form {
+    margin-top: 60px; /* Ajusta el valor según el espacio que necesites */
+}
+
+.spaced-top {
+    margin-top: 20px; /* Ajusta el valor según el espacio que necesites */
+}
+
+.form-label {
+
+    color:rgb(0, 162, 255);
+}
