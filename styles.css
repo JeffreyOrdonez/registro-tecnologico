@@ -1,26 +1,48 @@
 
-/* Cambiar el color del enlace activo */
+
 .navbar .nav-link.active {
     color: rgb(0, 162, 255);
     font-weight: bold;
 }
 
-/* Cambiar el color del enlace al pasar el mouse */
+
 .navbar .nav-link:hover {
-    color: #001aff; /* Naranja */
+    color: #001aff; 
 }
 
-h1{
-    color: rgb(0, 0, 0);
+.container.mt-4{
+    background-color: #ffffff;
+    padding: 20px;
+
+
+}
+
+h1 {
+    color: #ffffff; 
+    background-color: #00a2ff; 
+    text-align: center;
+    padding: 20px; 
+    border-radius: 5px; 
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px; 
+    line-height: 1.6; 
+}
+
+.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 80px;
     
-}
 
-h3{
-    color: rgb(0, 162, 255);
 }
-
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(83, 200, 247);
 }
 
 .spaced-paragraph {
@@ -37,11 +59,11 @@ footer{
 }
 
 form {
-    margin-top: 60px; /* Ajusta el valor según el espacio que necesites */
+    margin-top: 60px;
 }
 
 .spaced-top {
-    margin-top: 20px; /* Ajusta el valor según el espacio que necesites */
+    margin-top: 20px;
 }
 
 .form-label {
